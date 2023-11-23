@@ -8,3 +8,4 @@ nmslib
 numpy
 pandas
 plotly
+pyclustering==<version>
