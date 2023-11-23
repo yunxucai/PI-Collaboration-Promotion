@@ -1,0 +1,10 @@
+folium
+geopy
+nltk
+sentence-transformers
+scikit-learn
+streamlit-folium
+nmslib
+numpy
+pandas
+plotly
