@@ -56,6 +56,8 @@ data = load_data()
 # In[ ]:
 
 
+nltk.download('wordnet')
+
 # Function for text processing
 def process_text(data_frame):
     text = data_frame["Keywords"].apply(lambda x: x.lower())
