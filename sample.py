@@ -225,7 +225,7 @@ def find_best_PI(data, q_input, k, model_SBERT, model_index):
 
 
 # User input for keywords
-keywords = st.text_input("Enter your research keywords or index keywords:")
+keywords = st.text_input("Enter your research keywords or index keywords: <br>Blue Pinpoints: PIs doing complementary work. <br>Blue Pinpoints: PIs doing complementary work. <br>Blue Pinpoints: PIs doing complementary work.")
 
 # Initialize variables
 similar_results = pd.DataFrame()
@@ -373,7 +373,7 @@ for idx, row in complementary_results.iterrows():
 folium_static(m)
 
 st.markdown("""
-    <h3 style="text-align: center;">Closest 8 PIs</h3>
+    <h3 style="text-align: center;">Closest 10 PIs</h3>
     <h4 style="text-align: left;">Red Pinpoints: PIs doing similar work.<br>Blue Pinpoints: PIs doing complementary work.</h4>
     """, unsafe_allow_html=True)
 
