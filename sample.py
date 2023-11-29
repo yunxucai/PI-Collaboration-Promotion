@@ -226,6 +226,7 @@ def find_best_PI(data, q_input, k, model_SBERT, model_index):
 
 # User input for keywords
 keywords = st.text_input("Enter your research keywords or index keywords: ")
+
 st.markdown("""
     <h4 style="text-align: left;">Examples research keywords:. 
     <br>Nanomaterial-based photonics and electronics for neuromodulation and live cell sensing
