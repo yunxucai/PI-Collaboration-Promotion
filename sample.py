@@ -227,7 +227,7 @@ def find_best_PI(data, q_input, k, model_SBERT, model_index):
 # User input for keywords
 keywords = st.text_input("Enter your research keywords or index keywords: ")
 
-st.markdown("""
+st.markdown(<p class="small-font">"""
     <h4 style="text-align: left;">Examples research keywords:. 
     <br>Nanomaterial-based photonics and electronics for neuromodulation and live cell sensing
     <br>She is known for developing Bayesian statistical theory and methodology for complex, heterogeneous, and large-scale datasets
