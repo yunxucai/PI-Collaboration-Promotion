@@ -225,7 +225,14 @@ def find_best_PI(data, q_input, k, model_SBERT, model_index):
 
 
 # User input for keywords
-keywords = st.text_input("Enter your research keywords or index keywords: <br>Blue Pinpoints: PIs doing complementary work. <br>Blue Pinpoints: PIs doing complementary work. <br>Blue Pinpoints: PIs doing complementary work.")
+keywords = st.text_input("Enter your research keywords or index keywords: ")
+st.markdown("""
+    <h4 style="text-align: left;">Examples research keywords:. 
+    <br>Nanomaterial-based photonics and electronics for neuromodulation and live cell sensing
+    <br>She is known for developing Bayesian statistical theory and methodology for complex, heterogeneous, and large-scale datasets
+    <br>Inverse optimization; Mathematical Modeling; Analytics; Healthcare Operations; Medical Decision-making; Public Health
+    <br>......</h4>
+    """, unsafe_allow_html=True)
 
 # Initialize variables
 similar_results = pd.DataFrame()
