@@ -227,13 +227,24 @@ def find_best_PI(data, q_input, k, model_SBERT, model_index):
 # User input for keywords
 keywords = st.text_input("Enter your research keywords or index keywords: ")
 
-st.markdown(<p class="small-font">"""
-    <h4 style="text-align: left;">Examples research keywords:. 
-    <br>Nanomaterial-based photonics and electronics for neuromodulation and live cell sensing
-    <br>She is known for developing Bayesian statistical theory and methodology for complex, heterogeneous, and large-scale datasets
-    <br>Inverse optimization; Mathematical Modeling; Analytics; Healthcare Operations; Medical Decision-making; Public Health
-    <br>......</h4>
+st.markdown("""
+    <style>
+    .small-font {
+        font-size:12px; /* You can change the font size here */
+    }
+    </style>
     """, unsafe_allow_html=True)
+
+st.markdown("""
+    <div style="text-align: left;">
+        <span class="small-font">Some example formats for research keywords:.</span>
+        <br><span class="small-font">Nanomaterial-based photonics and electronics for neuromodulation and live cell sensing</span>
+        <br><span class="small-font">She is known for developing Bayesian statistical theory and methodology for complex, heterogeneous, and large-scale datasets</span>
+        <br><span class="small-font">Inverse optimization; Mathematical Modeling; Analytics; Healthcare Operations; Medical Decision-making; Public Health</span>
+        <br><span class="small-font">......</span>
+    </div>
+    """, unsafe_allow_html=True)
+
 
 # Initialize variables
 similar_results = pd.DataFrame()
