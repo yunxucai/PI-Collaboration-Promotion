@@ -237,10 +237,10 @@ st.markdown("""
 
 st.markdown("""
     <div style="text-align: left;">
-        <span class="small-font">Some example formats for research keywords:.</span>
-        <br><span class="small-font">Nanomaterial-based photonics and electronics for neuromodulation and live cell sensing</span>
-        <br><span class="small-font">She is known for developing Bayesian statistical theory and methodology for complex, heterogeneous, and large-scale datasets</span>
-        <br><span class="small-font">Inverse optimization; Mathematical Modeling; Analytics; Healthcare Operations; Medical Decision-making; Public Health</span>
+        <span class="small-font">Some example formats for research keywords:</span>
+        <br><span class="small-font">(i) Nanomaterial-based photonics and electronics for neuromodulation and live cell sensing</span>
+        <br><span class="small-font">(ii) She is known for developing Bayesian statistical theory and methodology for complex, heterogeneous, and large-scale datasets</span>
+        <br><span class="small-font">(iii) Inverse optimization; Mathematical Modeling; Analytics; Healthcare Operations; Medical Decision-making; Public Health</span>
         <br><span class="small-font">......</span>
     </div>
     """, unsafe_allow_html=True)
